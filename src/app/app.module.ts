@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MathildeC3Component } from './mathilde-c3/mathilde-c3.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MathildeC3Component
   ],
   imports: [
     BrowserModule,
